@@ -10,27 +10,34 @@
 		<TITLE>Ubconfig</TITLE>
 	</HEAD>
 	<BODY>
+		<img src="/kernel/pic/enterprise.png" class = "pic_logo">
 		<header>
 			<div class="left_header">
-				<img src="/kernel/pic/logo.png" class = "logo">
-				<H1> enterprise config </H1>
+				<div class="head_info">
+					<img src="/kernel/pic/logo.png" class = "logo">
+					<H1> enterprise config </H1>
+				</div>
 			</div>
-			<ul class="right_header">
-				<li>`info.sh@1`.`info.sh@3`</li>
-				<li>`info.sh@2`</li>
-				<li>`date.sh@1`</li>
-			</ul>
+			<div class="right_header">
+				<div class="pic_button">
+					<img src="/kernel/pic/out.png" id="out_login" title="Выход">
+					<img src="/kernel/pic/save.png" id="save" title="Сохранить все настройки">
+				</div>
+				<ul>
+					<li>`info.sh@1`</li>
+					<li>`info.sh@2`</li>
+					<li>`date.sh@1`</li>
+				</ul>
+			</div>
 		</header>
 		<div class = "base_area">
-			$modules_list$
-		--><DIV class = "work">
-			$tabs$
-			$work$
+			?modules?
+			<DIV class = "work">
+				?tabs?
+				@work@
 			</DIV>
 		</div>
-			<DIV class = "mask"></DIV>
-			<DIV class = "window"></DIV>
-		</BODY>
+	</BODY>
 <LINK href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
-<SCRIPT src="../kernel/js/action.js"></script>
+<SCRIPT src="/kernel/js/action.js"></script>
 		

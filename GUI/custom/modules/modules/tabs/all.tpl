@@ -1,9 +1,12 @@
+Name: Вкл\Выкл
 <div class = "puz">
 <h2>Список модулей</h2>
 <form action = "mod">
 <fieldset>
 	<legend>Список модулей</legend>
-	<div class = "list_modules"><input type="checkbox" value="`list.sh#`" id="`list.sh#`" name="modul[]"><span>`list.sh#`</span></div>
+	&:<div class = "list_modules"><input type="checkbox" value="`list.sh@`" 
+	id="`list.sh@`" name="modul[]"><span>
+	`list.sh@`</span></div>:&
 </fieldset>
 <button class='form_handler'>Сохранить</button>
 </form>
@@ -50,7 +53,7 @@ for (i = 0; i < coll.length; i++)
 	str = str.slice(1);
 	pos = str.indexOf('/');
 	str = str.slice(0,pos);
-	
+
 	$('#'+str).attr('checked', true);
 }
 

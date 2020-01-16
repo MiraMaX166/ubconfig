@@ -1,5 +1,4 @@
 #!/bin/bash
 
-hostname
-hostname -i 
-hostname -d
+echo $(hostname).$(hostname -d)
+ifconfig | grep inet | head -n 1 | awk '{print $2}'

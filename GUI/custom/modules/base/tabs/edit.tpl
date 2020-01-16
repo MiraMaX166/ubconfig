@@ -1,3 +1,4 @@
+Name: Редактировать
 <div class = "puz">
 <h2>Edit info</h2>
 <formprepross action = 'test'>
@@ -7,18 +8,10 @@
 	name = (Имя компьютера)
 	alt = (name)
 	type = (field)
-    default = (`info.sh@1`)
+    default = ( `info.sh@1` )
     collect_values = ( )
 }
 
-[dir_module:DirectoryIndex]
-{
-	name = (Ip-адрес)
-	alt = (adress)
-	type = (field)
-	default = (`info.sh@2`)
-	collect_values = ( )
-}
 
 [dir_module:DirectoryIndex]
 {
